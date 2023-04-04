@@ -8,9 +8,9 @@
 # 4. Run this command from the Replit shell:
 #    bash <(curl -s https://raw.githubusercontent.com/sxbai/wordpress-zh_CN-on-replit/main/build.sh)
 
-echo "准备在您的 Replit 中安装 Wordpress"
+echo "準備在您的 Replit 中安裝 Wordpress"
 
-read -p "继续?输入Y安装输入N退出 <Y/n> " prompt
+read -p "繼續?輸入Y安裝輸入N退出 <Y/n> " prompt
 if [[ $prompt == "N" || $prompt == "n" || $prompt == "No" || $prompt == "no" ]]; then
   exit 0
 fi
@@ -33,7 +33,7 @@ cd ~/$REPL_SLUG
 rm ~/$REPL_SLUG/index.php
 
 #Download Wordpress!
-wp core download --locale=zh_CN
+wp core download --locale=zh_TW
 
 #SQLITE Plugin: Download, extract and cleanup sqlite plugin for WP
 curl -LG https://raw.githubusercontent.com/sxbai/wordpress-zh_CN-on-replit/main/db.php > ./wp-content/db.php
@@ -50,16 +50,16 @@ PHP
 # Get info for WP install
 read -p "输入 Wordpress 用户名: " username
 while true; do
-  read -s -p "输入 Wordpress 密码: " password
+  read -s -p "輸入 Wordpress 密碼: " password
   echo
-  read -s -p "再次输入Wordpress 密码: " password2
+  read -s -p "再次輸入Wordpress 密碼: " password2
   echo
   [ "$password" = "$password2" ] && break
-  echo "请重新尝试！"
+  echo "請重新嘗試！"
 done
 
-read -p "请输入 Wordpress Email: " email
-read -p "请输入 Wordpress 站点标题: " title
+read -p "請輸入 Wordpress Email: " email
+read -p "請輸入 Wordpress 站點標題: " title
 
 REPL_URL=$REPL_SLUG.$REPL_OWNER.repl.co
 
