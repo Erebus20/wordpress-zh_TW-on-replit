@@ -22,7 +22,7 @@
 - replit环境选择`PHP Web Server`
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/sxbai/wordpress-zh_CN-on-replit/main/build.sh)
+bash <(curl -s https://raw.githubusercontent.com/Erebus20/wordpress-zh_TW-on-replit/main/build.sh)
 ```
 - 执行上面脚本
 - 最后点击Run运行项目即可。
