@@ -6,7 +6,7 @@
 # 2. Update the replit.nix file to include the code in this repo
 # 3. Restart the Repl
 # 4. Run this command from the Replit shell:
-#    bash <(curl -s https://raw.githubusercontent.com/sxbai/wordpress-zh_CN-on-replit/main/build.sh)
+#    bash <(curl -s https://raw.githubusercontent.com/Erebus20/wordpress-zh_TW-on-replit/main/build.sh)
 
 echo "準備在您的 Replit 中安裝 Wordpress"
 
@@ -36,7 +36,7 @@ rm ~/$REPL_SLUG/index.php
 wp core download --locale=zh_TW
 
 #SQLITE Plugin: Download, extract and cleanup sqlite plugin for WP
-curl -LG https://raw.githubusercontent.com/sxbai/wordpress-zh_CN-on-replit/main/db.php > ./wp-content/db.php
+curl -LG https://raw.githubusercontent.com/Erebus20/wordpress-zh_TW-on-replit/main/db.php > ./wp-content/db.php
 
 #Create dummy config to be overruled by sqlite plugin
 wp config create --skip-check --dbname=wp --dbuser=wp --dbpass=pass --extra-php <<PHP
@@ -67,10 +67,10 @@ REPL_URL=$REPL_SLUG.$REPL_OWNER.repl.co
 wp core install --url=$REPL_URL --title=$title --admin_user=$username --admin_password=$password --admin_email=$email
 
 echo "恭喜!!!"
-echo "您的新WordPress网站现已设置完成! "
-echo "网页地址: https://$REPL_URL"
-echo "管理员地址: https://$REPL_URL/wp-admin"
-echo "管理员账号: $username"
-echo "管理员密码: $password"
-echo "点击Run按钮运行WordPress博客项目"
+echo "您的新WordPress網站現已設置完成! "
+echo "網頁地址: https://$REPL_URL"
+echo "管理員地址: https://$REPL_URL/wp-admin"
+echo "管理員賬號: $username"
+echo "管理員密碼: $password"
+echo "點擊Run按鈕運行WordPress博客項目"
 rm -rf install.sh
