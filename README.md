@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<p align="center"><b>WordPress中文版</b>部署于Replit，️WordPress是一款能让您建立出色网站、博客或应用程序的开源软件。</p>
+<p align="center"><b>WordPress繁體中文版</b>部署於Replit，️WordPress是一款能讓您建立出色網站、博客或應用程序的開源軟件。</p>
 
 <p align="center">
 <a href="https://github.com/sxbai/wordpress-zh_CN-on-replit/releases"><img alt="GitHub release" src="https://img.shields.io/github/release/sxbai/wordpress-zh_CN-on-replit.svg?style=flat-square&include_prereleases" /></a>
@@ -12,22 +12,22 @@
 
 <br />
 <a href="https://blog.sxbai.com">博客</a>
-<a href="https://cn.wordpress.org/support/">文档</a>
-<a href="https://cn.wordpress.org/support/forums/">论坛</a>
-<a href="https://t.me/sxbai">Telegram 频道</a>
+<a href="https://cn.wordpress.org/support/">文檔</a>
+<a href="https://cn.wordpress.org/support/forums/">論壇</a>
+<a href="https://t.me/sxbai">Telegram 頻道</a>
 </p>
 
 ------------------------------
-## 使用说明
-- replit环境选择`PHP Web Server`
+## 使用說明
+- replit環境選擇`PHP Web Server`
 
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/Erebus20/wordpress-zh_TW-on-replit/main/build.sh)
 ```
-- 执行上面脚本
-- 最后点击Run运行项目即可。
+- 執行上面腳本
+- 最後點擊Run運行項目即可。
 
-## 脚本来源
-- [ ] 修改自Github开源项目 [https://github.com/ethanpil/wordpress-on-replit](https://github.com/ethanpil/wordpress-on-replit)
-- [x] 修改原脚本下载wordpress英文版改为wordpress中文版
-- [x] 修改原脚本命令英文语言显示改为中文
+## 腳本來源
+- [ ] 修改自Github開源項目 [https://github.com/ethanpil/wordpress-on-replit](https://github.com/ethanpil/wordpress-on-replit)
+- [x] 修改原腳本下載wordpress英文版改為wordpress中文版
+- [x] 修改原腳本命令英文語言顯示改為中文
