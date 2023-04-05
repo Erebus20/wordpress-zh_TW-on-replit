@@ -1,5 +1,8 @@
-
-
+<p align="center">
+    <a href="https://cn.wordpress.org/" target="_blank" rel="noopener noreferrer">
+        <img width="400" height="216" src="https://raw.iqiq.io/sxbai/wordpress-zh_CN-on-replit/main/WordPress-logotype-alternative.png" alt="wordpress logo" />
+    </a>
+</p>
 <p align="center"><b>WordPress繁體中文版</b>部署於Replit，️WordPress是一款能讓您建立出色網站、博客或應用程序的開源軟件。</p>
 
 <p align="center">
